@@ -1,0 +1,18 @@
+{
+  "name": "stick-story-animation",
+  "private": true,
+  "type": "module",
+  "description": "Render 9:16 stick-figure story shorts (canvas + ffmpeg)",
+  "scripts": {
+    "setup": "npm i @napi-rs/canvas @ffmpeg-installer/ffmpeg",
+    "compare": "node compare.mjs",
+    "poses": "node posesheet.mjs",
+    "walks": "node walksheet.mjs",
+    "render": "node render.mjs --story stories/demo.json --out ../out/demo.mp4",
+    "still": "node render.mjs --story stories/demo.json --still 3.2 --out ../out/f3.png"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@napi-rs/canvas": "^1.1.1"
+  }
+}

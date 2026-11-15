@@ -3,3 +3,7 @@ __pycache__/
 .idea/
 .vscode/
 
+node_modules/
+skills/stick-story-animation/out/
+skills/stick-story-animation/scripts/node_modules/
+skills/stick-story-animation/scripts/out/

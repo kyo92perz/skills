@@ -1,0 +1,290 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "title": "DEMO — mesmo movimento, looks diferentes",
+  "look": {
+    "paper": "#0b0e0f",
+    "figureStyle": "cinematic",
+    "inkColor": "#f0eee6",
+    "headFill": "rgba(240,238,230,0.98)",
+    "rim": "rgba(0,0,0,0)",
+    "boil": 0.9,
+    "boilHz": 8,
+    "depth": 1,
+    "plateDarken": 0.34,
+    "vignette": 0.62,
+    "grain": 0.09,
+    "flicker": true,
+    "captionStyle": {
+      "size": 92,
+      "font": "condensed",
+      "fill": "#f6f5f0",
+      "stroke": "#08080a",
+      "strokeW": 14
+    },
+    "figureLineRatio": 0.022,
+    "halo": 0.34,
+    "outlineColor": "rgba(6,6,8,0.92)",
+    "lightInk": true,
+    "faceColor": "#0b0b0d"
+  },
+  "shots": [
+    {
+      "id": "A-corredor",
+      "dur": 4.6,
+      "plate": "../../reference/plates/plate-corridor.png",
+      "parallax": 0.55,
+      "camera": {
+        "x": [
+          [
+            0,
+            540
+          ],
+          [
+            4.6,
+            560
+          ]
+        ],
+        "y": [
+          [
+            0,
+            1020
+          ],
+          [
+            4.6,
+            980
+          ]
+        ],
+        "zoom": [
+          [
+            0,
+            1.0
+          ],
+          [
+            3.0,
+            1.02
+          ],
+          [
+            3.55,
+            1.16
+          ],
+          [
+            4.6,
+            1.12
+          ]
+        ],
+        "shake": [
+          [
+            0,
+            0
+          ],
+          [
+            3.45,
+            0
+          ],
+          [
+            3.5,
+            9
+          ],
+          [
+            3.85,
+            0
+          ]
+        ]
+      },
+      "actors": [
+        {
+          "x": 520,
+          "y": 1430,
+          "scale": 820,
+          "pose": {
+            "from": "stand",
+            "to": "hide",
+            "t0": 2.6,
+            "t1": 2.0
+          },
+          "face": "scared",
+          "seed": 3
+        }
+      ],
+      "captions": [
+        {
+          "text": "3 da manhã.",
+          "t0": 0.35,
+          "t1": 1.5
+        },
+        {
+          "text": "Alguém estava\nandando no corredor.",
+          "t0": 1.65,
+          "t1": 3.5
+        },
+        {
+          "text": "E não era o vizinho.",
+          "t0": 3.5,
+          "t1": 4.5
+        }
+      ],
+      "impacts": [
+        {
+          "t": 2.92
+        }
+      ],
+      "badge": {
+        "text": "PARTE 1"
+      }
+    },
+    {
+      "id": "B-janela",
+      "dur": 3.4,
+      "plate": "../../reference/plates/plate-window-city.png",
+      "parallax": 0.7,
+      "camera": {
+        "x": [
+          [
+            0,
+            540
+          ],
+          [
+            3.4,
+            540
+          ]
+        ],
+        "y": [
+          [
+            0,
+            980
+          ],
+          [
+            3.4,
+            940
+          ]
+        ],
+        "zoom": [
+          [
+            0,
+            1.05
+          ],
+          [
+            3.4,
+            1.18
+          ]
+        ],
+        "shake": [
+          [
+            0,
+            2
+          ],
+          [
+            3.4,
+            4
+          ]
+        ]
+      },
+      "actors": [
+        {
+          "x": 640,
+          "y": 1520,
+          "scale": 780,
+          "pose": "check_phone",
+          "face": "determined",
+          "seed": 7
+        }
+      ],
+      "captions": [
+        {
+          "text": "No bolso:",
+          "t0": 0.3,
+          "t1": 1.2
+        },
+        {
+          "text": "toque. Toque. Toque.",
+          "t0": 1.2,
+          "t1": 3.2
+        }
+      ]
+    },
+    {
+      "id": "C-caminhada",
+      "dur": 3.2,
+      "plate": "../../reference/plates/plate-corridor.png",
+      "parallax": 0.5,
+      "camera": {
+        "x": [
+          [
+            0,
+            520
+          ],
+          [
+            3.2,
+            560
+          ]
+        ],
+        "y": [
+          [
+            0,
+            1040
+          ],
+          [
+            3.2,
+            1010
+          ]
+        ],
+        "zoom": [
+          [
+            0,
+            1.06
+          ],
+          [
+            3.2,
+            1.12
+          ]
+        ],
+        "shake": [
+          [
+            0,
+            3
+          ],
+          [
+            3.2,
+            6
+          ]
+        ]
+      },
+      "actors": [
+        {
+          "x": [
+            [
+              0,
+              160
+            ],
+            [
+              3.2,
+              900
+            ]
+          ],
+          "y": 1430,
+          "scale": 860,
+          "pose": "walk",
+          "stepHz": 2.4,
+          "face": "scared",
+          "seed": 11,
+          "lineMul": 1
+        }
+      ],
+      "look": {
+        "speedLines": 0.35
+      },
+      "captions": [
+        {
+          "text": "Passos. Cada vez mais perto.",
+          "t0": 0.2,
+          "t1": 2.0,
+          "opts": {
+            "y": 1050
+          }
+        }
+      ]
+    }
+  ]
+}
