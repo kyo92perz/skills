@@ -1,0 +1,23 @@
+{
+  "skill_name": "fotos-realistas",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "tô mandando 5 selfies minhas na pasta referencias/. quero uma foto minha de vestido vermelho num café em paris segurando um croissant, de manhã, pra postar no story",
+      "expected_output": "Referências preparadas e avaliadas, perfil.md escrito, checklist com todos os itens (vestido vermelho, café parisiense, croissant na mão, manhã, 9:16), prompt em inglês com âncora de identidade e linguagem de foto de celular, variações geradas e revisadas item por item, story final 1080x1920.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "faz 3 fotos minhas pros stories da semana: uma na academia de top preto, uma no mirante do pôr do sol e uma selfie no espelho com look de balada. usa as fotos de referência que já estão em fotos-ia/",
+      "expected_output": "Reaproveita perfil.md e referencias_prontas existentes, cria um job por foto, mantém identidade consistente entre as três, escolhe tipo de câmera adequado a cada cena (selfie no espelho coerente), entrega três stories 1080x1920 e lista escolhas feitas nos itens não especificados.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "não tenho chave de api nenhuma, só uso o gemini no celular. me ajuda a fazer uma foto minha bem real na praia de biquíni preto andando de costas olhando pra trás, sem cara de ia",
+      "expected_output": "Detecta ausência de chave, oferece modo manual: indica quais fotos anexar e em que ordem, entrega o prompt pronto para colar, explica como pedir variações e se oferece para revisar o resultado e escrever o prompt de correção.",
+      "files": []
+    }
+  ]
+}
